@@ -4,7 +4,7 @@ import { useState } from "react";
 import Form from "./components/Form";
 import UserList from "./components/UserList";
 
-const BASE_URL = "https://crud-app-hosted-production.up.railway.app";
+const BASE_URL = "https://crud-app-hosting-test-production.up.railway.app/";
 
 function App() {
   const [userData, setUserData] = useState(null);
